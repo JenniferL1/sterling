@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/:t{{;mt|;3e7-MS#nAV">mySprite</variable><variable type="KIND_SpriteKind" id="mEvq5IuC/L2,xdZ}im^g">Player</variable><variable type="KIND_SpriteKind" id="rGb#XbOg:Ot7e_6Su+{q">Projectile</variable><variable type="KIND_SpriteKind" id="iJ3mk+*6WJ[~+5r^k5!:">Food</variable><variable type="KIND_SpriteKind" id=",^h@[R5t#RH7TbNlZBG0">Enemy</variable></variables><block type="pxt-on-start" id="Bvw@wQ=Tuy.Vqu*5b0Ct" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="|8XtII+P+R5oSlFa6s4L"><field name="VAR" id="/:t{{;mt|;3e7-MS#nAV">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="HG26W+$iL?M|M^ui=ox+"><value name="img"><shadow type="screen_image_picker" id=",m-F_)Q#g5cvuAy}q7SH"><field name="img">img`
+5 5 f f f f f f f f f f f f 1 1 
+5 5 f f 1 1 1 1 1 1 1 1 f f 1 1 
+f f 5 5 f f f f f f f f 1 1 f f 
+f f 5 5 f f f f f f f f 1 1 f f 
+f 1 f f 2 2 2 2 2 2 2 2 f f 1 f 
+f 1 f f 2 f f 2 2 f f 2 f f 1 f 
+f 1 f f 2 2 f f f f 2 2 f f 1 f 
+f 1 f f 2 2 2 2 2 2 2 2 f f 1 f 
+f 1 f f 2 2 f 2 2 f 2 2 f f 1 f 
+f 1 f f 2 2 2 2 2 2 2 2 f f 1 f 
+f 1 f f 2 2 2 f f 2 2 2 f f 1 f 
+f 1 f f 2 2 2 2 2 2 2 2 f f 1 f 
+f f 1 1 f f f f f f f f 5 5 f f 
+f f 1 1 f f f f f f f f 5 5 f f 
+1 1 f f 1 1 1 1 1 1 1 1 f f 5 5 
+1 1 f f f f f f f f f f f f 5 5 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="QO74#o5oupjDZcXa``n;"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesay" id="Ykst37DD7oo;6JxHeNd6"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="?*.a@G8~I?,vLLLb*DNl"><field name="VAR" id="/:t{{;mt|;3e7-MS#nAV">mySprite</field></block></value><value name="text"><shadow type="text" id="ZjkqQ;n+|1m*;(^.t2;H"><field name="TEXT">BABY BEATS ROCK!</field></shadow></value></block></next></block></statement></block></xml>
